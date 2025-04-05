@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="UTF-8">
+ <meta name="description" content="積田の自己紹介ページ。経歴、スキル、趣味について。",  initial-scale="1.0">
+ <title> 積田自己紹介HP </title>
+ <link rel="stylesheet"href="./style_1.css">
+ <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <div class="firstView" id="home">
+    <p>世界観を大切に。</p>
+
+    <div class="button">
+     <a href="#home" class="link">Home</a>
+     <a href="#about" class="link">About</a>
+     <a href="#portfolio" class="link">Portfolio</a>
+     <a href="#contact" class="link">Contact</a>
+    </div>
+  </div>
+
+  
+  
+  <header> 
+     <div>
+       <img src="picture_hp/IMG_2054.PNG" alt="icon_mirei" />
+     </div>
+     <div class="name">
+       <h1 style="font-size: 50px;"> TSUMITA MIREI </h1>
+       <p>印象深く、伝わるデザイン</p>
+     </div> 
+  </header>
+
+ <div class="page">
+
+   <div class="about" id="about">
+       <h1 style="color: #626161; font-size: 35px;">About me</h1>
+     <div class="subtitle">
+       <h2 style="color: #9d9ba7; font-size: 20px; "> Career </h2>
+       <div class="content_first">
+         <time>2016.6</time>
+           <p>　色彩検定3級取得</p> 
+         <time>2020.3</time> 
+           <p> 　東京家政大学 造形表現学科 卒業
+           <br> 　学芸員資格取得</p>
+         <time>2020.4 ～ 2022.8</time> 
+           <p>　ファストファッションにてセールスアシスタントとして勤務</p>
+         <time>2022.9 ～ 2025.1</time> 
+           <p>　ブティックにてクライアントアドバイザーとして勤務</p>
+         <time>2025.2 ～ 現在</time>
+           <p>　株式会社iGrus 在籍中</p>
+       </div>
+     </div>
+
+      <div class="subtitle">
+        <h1 style="color: #9d9ba7; font-size: 20px;"> Skill </h1>
+        <div class="icon">
+            <img src="picture_hp/icons8-adobe-photoshop-50.png" alt="Photoshop" />
+            <img src="picture_hp/icons8-adobe-illustrator-50.png" alt="illustrator" />
+            <img src="picture_hp/icons8-adobe-indesign-50.png" alt="indesign" />
+            <img src="picture_hp/icons8-adobe-premiere-pro-50.png" alt="premierepro" />
+           <br>
+            <img src="picture_hp/icons8-html-50.png" alt="html" />
+            <img src="picture_hp/icons8-css-50.png" alt="css" />
+            <img src="picture_hp/icons8-javascript-50.png" alt="javascript" />
+        </div>
+        </div>
+      </div>  
+   </div>
+   
+   <div class="portfolio" id="portfolio">
+     <h1 style="color: #626161; font-size: 35px;">Portfolio</h1>
+     <div class="artWork">
+        <img src="picture_hp/IMG_2208.PNG" alt="cat_one" />
+        <img src="picture_hp/IMG_2207.PNG" alt="cat_two" />
+        <img src="picture_hp/IMG_2210.PNG" alt="cat_three" />
+        <!--載せるものがないので猫をご覧あれ-->
+     </div>
+   </div>
+  </div>
+
+  <div class="contactPage" id="contact">
+    <form action="send_mail.php" method="post" class="label"> 
+      <h1 style="color: #626161; font-size: 35px;">Contact</h1>
+        <label for="name">NAME</label>
+        <input type="text" id="name" name="name" placeholder="お名前" required> 
+          <br><label for="email">E-mail</label> 
+          <input type="email" id="email" name="email" placeholder="例: example@mail.com" required>
+          <br><label for="tell">TELL</label> 
+          <input type="tell" id="tell" name="tell" placeholder="例: 090-1234-5678" required>
+          <br><label for="message">MESSAGE</label>  
+          <textarea id="message" name="message" placeholder="メッセージを入力" rows="5" required></textarea> 
+          <button type="submit">SEND</button> 
+   </form>
+  </div>
+
+ <div>
+    <footer class="footer"> 
+     <div>
+        <p>mirei@example.com</p> 
+        <p>&copy; 2025 Tsumita Portfolio</p>
+        <p> 
+          <a href="https://www.instagram.com/tsumire._.i?igsh=aHVoZHZoejBveGY0&utm_source=qr" target="_all" rel="noopener noreferrer"> 
+            <img src="picture_hp/icons8-Instagram-48.png" alt="Instagramアイコン"> 
+          </a>
+        </p>
+     </div>
+     <div>
+        <a href="#top" class="back_to_top" title="トップへ戻る"> 
+            <button class="arrow">∧</button> 
+        </a>
+    </div>
+    </footer>
+ </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
+
+
